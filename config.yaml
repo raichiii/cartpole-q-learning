@@ -1,0 +1,19 @@
+env_id: CartPole-v1
+rl: 0.5
+gamma: 0.99
+d_digitized: 6
+sutton_barto_reward: true
+n_max_episode: 10000
+n_max_step: 1000
+n_step_success: 800
+n_max_continuous_success: 10
+
+reproducibility:
+  use_seed: true
+
+display:
+  fname_gif: gif/CartPole_Q_learning
+  duration_gif: 20
+
+logging:
+  n_episode_per_print: 100

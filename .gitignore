@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Hydra
+outputs/
+
+# Gymnasium
+video/*
+!video/rl-video-episode-0.example.mp4
+
+
+# Pillow
+gif/*
+!gif/CartPole_Q_learning.example.gif
